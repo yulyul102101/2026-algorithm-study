@@ -1,9 +1,5 @@
 # 📚 Algorithm + SQL Study
 
-![GitHub repo size](https://img.shields.io/github/repo-size/)
-![GitHub last commit](https://img.shields.io/github/last-commit/)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/)
-
 꾸준한 문제 풀이 습관을 만들고
 알고리즘 + SQL 문제 해결 능력을 향상시키기 위한 스터디입니다.
 
