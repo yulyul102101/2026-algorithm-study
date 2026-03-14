@@ -10,4 +10,4 @@ for i in range(n):
 find = "enter"
 inC = list(filter(lambda k: log[k] == find, log))
 
-print('\n'.join(inC))
+print('\n'.join(sorted(inC, reverse=True)))
