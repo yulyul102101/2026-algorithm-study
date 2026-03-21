@@ -1,3 +1,4 @@
+'''
 import sys
 
 IBSN = sys.stdin.readline()
@@ -16,3 +17,4 @@ for i in range(13):
 
 a = m%10 -1
 print(a)
+'''
