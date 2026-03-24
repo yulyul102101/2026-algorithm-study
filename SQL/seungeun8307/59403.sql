@@ -1,4 +1,3 @@
 select ANIMAL_ID, NAME
 from ANIMAL_INS
-where INTAKE_CONDITION NOT like 'Aged'
 order by ANIMAL_ID
