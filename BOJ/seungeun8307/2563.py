@@ -1,5 +1,4 @@
 import sys
-from collections import Counter
 
 paper = [[0 for _ in range(100)]for _ in range(100)]
 
