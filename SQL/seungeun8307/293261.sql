@@ -1,0 +1,16 @@
+select 
+F.ID AS ID,
+N.FISH_NAME AS FISH_NAME,
+F.LENGTH AS LENGTH
+
+from FISH_INFO F
+join FISH_NAME_INFO N
+on F.FISH_TYPE = N.FISH_TYPE
+
+where F.LENGTH = (
+    select MAX(LENGTH)
+    from FISH_INFO
+    where FISH_TYPE = F.FISH_TYPE
+)
+
+order by F.ID ASC
