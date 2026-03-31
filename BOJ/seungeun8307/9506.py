@@ -9,4 +9,4 @@ while(True):
     if(sum(a)==n): 
         print(n,'=',end=' ')
         print(*a,sep=' + ')
-    else: print(n,'is NOT perfect')
+    else: print(n,'is NOT perfect.')
