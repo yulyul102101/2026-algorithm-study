@@ -1,0 +1,8 @@
+def solution(binomial):
+    answer = 0
+    a, op, b = binomial.split()
+    a, b= int(a), int(b)
+    if op=='+': answer=a+b
+    if op=='-': answer=a-b
+    if op=='*': answer=a*b
+    return answer
