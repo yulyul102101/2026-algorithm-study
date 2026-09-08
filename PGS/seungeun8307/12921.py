@@ -7,5 +7,5 @@ def prime(n: int) -> bool:
     return True
 
 def solution(n):
-    answer = len([i for i aif prime(i)])
+    answer = len([i for i in range(1, n+1) if prime(i)])
     return answer
